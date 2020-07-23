@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dacc3041-b739-4051-b6b6-46c73403e375" name="Default Changelist" comment="" />
+    <list default="true" id="dacc3041-b739-4051-b6b6-46c73403e375" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/storage/uploads/Products/original/1595235009_gwent.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +12,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,6 +127,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1eXPGG7M0FbBk4USWCqTuseHMbv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -173,6 +179,7 @@
       <workItem from="1595146428508" duration="13721000" />
       <workItem from="1595232343310" duration="20128000" />
       <workItem from="1595404865941" duration="10797000" />
+      <workItem from="1595493965526" duration="6387000" />
     </task>
     <servers />
   </component>
@@ -196,13 +203,13 @@
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
     <state x="812" y="380" width="360" height="464" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/67.27.1853.1173@67.27.1853.1173" timestamp="1594637448644" />
-    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup" timestamp="1595430642146">
+    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup" timestamp="1595497535728">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup/67.27.1853.1173@67.27.1853.1173" timestamp="1595430642146" />
-    <state x="718" y="523" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594644022748">
+    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup/67.27.1853.1173@67.27.1853.1173" timestamp="1595497535728" />
+    <state x="718" y="523" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1595498066277">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state x="718" y="523" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1173@67.27.1853.1173" timestamp="1594644022748" />
+    <state x="718" y="523" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1173@67.27.1853.1173" timestamp="1595498066277" />
   </component>
 </project>

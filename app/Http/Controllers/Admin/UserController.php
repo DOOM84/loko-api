@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Resources\adminUserResource;
 use App\Repositories\Contracts\IUser;
+use App\Rules\BlockEmail;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Symfony\Component\HttpFoundation\Response;
@@ -50,7 +51,7 @@ class UserController extends Controller
     {
         $this->validate($request, [
             'name' => 'required|string|max:255|unique:users',
-            'email' => 'required|string|email|max:255|unique:users',
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users', new BlockEmail()],
             'password' => 'required|string|min:6|confirmed',
         ],
             [
