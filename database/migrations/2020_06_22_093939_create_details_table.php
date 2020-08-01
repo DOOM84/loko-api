@@ -16,6 +16,7 @@ class CreateDetailsTable extends Migration
         Schema::create('details', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('image')->default(null);
             $table->string('drawing');
             $table->string('weight');
             $table->boolean('status')->default(false);

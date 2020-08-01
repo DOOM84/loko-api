@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dacc3041-b739-4051-b6b6-46c73403e375" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/storage/uploads/Products/original/1595235009_gwent.png" beforeDir="false" />
-    </list>
+    <list default="true" id="dacc3041-b739-4051-b6b6-46c73403e375" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,6 +178,7 @@
       <workItem from="1595232343310" duration="20128000" />
       <workItem from="1595404865941" duration="10797000" />
       <workItem from="1595493965526" duration="6387000" />
+      <workItem from="1595530622551" duration="2591000" />
     </task>
     <servers />
   </component>

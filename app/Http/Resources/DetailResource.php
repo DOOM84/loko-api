@@ -3,6 +3,7 @@
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
+use Illuminate\Support\Facades\Storage;
 
 class DetailResource extends JsonResource
 {
@@ -20,6 +21,8 @@ class DetailResource extends JsonResource
             'name' => $this->name,
             'drawing' => $this->drawing,
             'weight' => $this->weight,
+            'image' => $this->image ? Storage::disk('public')
+                ->url('uploads/Details/original/'.$this->image) : ''
         ];
     }
 }
